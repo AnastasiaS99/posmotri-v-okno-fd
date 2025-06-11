@@ -91,12 +91,14 @@ ol {
   block-size: 100%;
   object-fit: cover;
   object-position: center;
+  padding-bottom: 10px;
 }
 
 .content__list {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-bottom: 10px;
 }
 
 .content__video-card {
@@ -173,6 +175,7 @@ ol {
   -webkit-line-clamp: 1;
   line-clamp: 1;
   -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
 }
 
 .visually-hidden {
