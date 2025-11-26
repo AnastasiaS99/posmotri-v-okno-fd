@@ -1,8 +1,8 @@
 .preloader {
-  position: absolute;
+  position: absolute; /* Полностью занимает весь видимый экран */
   inset: 0;
   display: flex;
-  justify-content: center;
+  justify-content: center; /* Центрирование содержимого */
   align-items: center;
   background: #545050;
 }
@@ -14,7 +14,7 @@
 }
 
 .preloader-chasing-squares .square {
-  display: inline-block;
+  display: inline-block; /* Элементы отображаются в строке */
   width: 15px;
   height: 15px;
   opacity: 1;

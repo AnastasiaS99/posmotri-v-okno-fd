@@ -9,10 +9,10 @@ html {
 }
 
 .page {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	inline-size: 1200px;
+	display: flex; /* Центрует содержимое */
+	justify-content: center; /* Центрует содержимое */
+	align-items: center; /* Центрует содержимое */
+	inline-size: 1200px; /* Ограничивает ширину */
 	block-size: 100%;
 	margin: auto;
 	color: #fff;
@@ -57,7 +57,7 @@ ol {
 	display: grid;
 	gap: 30px;
 	grid-template-columns: 711px 1fr;
-	place-items: end;
+	place-items: end; /* Выравнивание элементов по вертикали в конце ячейки */
 }
 
 .search-form {
@@ -87,10 +87,10 @@ ol {
 }
 
 .result__video {
-	inline-size: 100%;
-	block-size: 100%;
-	object-fit: cover;
-	object-position: center;
+	inline-size: 100%; /* Заполняет весь контейнер */
+	block-size: 100%; /* Заполняет весь контейнер */
+	object-fit: cover; /* Сохраняет пропорции */
+	object-position: center; /* Центрирование изображения*/
 }
 
 .content__list {
@@ -174,8 +174,8 @@ ol {
 	text-decoration-skip-ink: none;
 	text-underline-position: from-font;
 	-webkit-line-clamp: 1;
-	line-clamp: 1;
-	-webkit-box-orient: vertical;
+	line-clamp: 1; /* Ограничение на одну строку */
+	-webkit-box-orient: vertical; /* Ограничение на одну строку */
 	text-overflow: ellipsis;
 }
 
